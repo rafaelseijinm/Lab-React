@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 function Letreiro() {
-  const texto = 'Conheça a Fatec';
+  const texto = 'Conheça a Fatecc';
   const [textoAtual, setTextoAtual] = useState('');
   const [indice, setIndice] = useState(0);
 
