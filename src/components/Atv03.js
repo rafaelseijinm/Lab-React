@@ -5,9 +5,10 @@ import ProfileWithAvatar from './ProfileWithAvatar';
 import PackingList from '../PackingList';
 import List from '../List';
 
-export default function App() {
+function Atv03() {
   return (
     <div>
+      <h2>Atividade 03</h2>
       <Gallery />
       <ProfileWithAvatar />
       <PackingList />
@@ -15,3 +16,5 @@ export default function App() {
     </div>
   );
 }
+
+export default Atv03;
