@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Relogio from './Relogio';
 import Letreiro from './Letreiro';
 
-function atv1() {
+function Atv1() {
   return (
     <>
       <h2>Atividade 01</h2>
@@ -14,4 +14,4 @@ function atv1() {
   );
 }
 
-export default atv1;
+export default Atv1;

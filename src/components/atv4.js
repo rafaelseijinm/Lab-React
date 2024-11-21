@@ -4,13 +4,15 @@ import Toolbar from './Toolbar';
 import Gallery2 from './Gallery2';
 import Counter from './Counter';
 import Form from './Form';
+import List from './List';
 import List2 from './List2';
 import ShapeEditor from './ShapeEditor';
 import CounterList from './CounterList';
 import BucketList from './BucketList';
-import './atv4.css';
+import MovingDot from './MovingDot';
+import './Atv4.css';
 
-function atv4() {
+function Atv4() {
   const handlePlayMovie = () => alert('Playing movie...');
   const handleUploadImage = () => alert('Uploading image...');
 
@@ -31,4 +33,4 @@ function atv4() {
   );
 }
 
-export default atv4;
+export default Atv4;

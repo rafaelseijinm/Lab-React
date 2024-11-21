@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+
 // ShapeEditor Component
 function ShapeEditor() {
     const [shapes, setShapes] = useState([]);

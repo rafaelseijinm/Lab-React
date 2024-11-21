@@ -2,10 +2,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
-import atv1 from './components/atv1';
-import atv2 from './components/atv2';
-import atv3 from './components/atv3';
-import atv4 from './components/atv4';
+import atv1 from './components/Atv1';
+import atv2 from './components/Atv2';
+import atv3 from './components/Atv3';
+import atv4 from './components/Atv4';
 
 function MinhasRotas() {
   return (

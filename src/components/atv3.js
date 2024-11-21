@@ -4,8 +4,9 @@ import Gallery from './Gallery';
 import Profile from './Profile';
 import PackingList from './PackingList';
 import Lista from './Lista';
+import './Atv3.css';
 
-function atv3() {
+function Atv3() {
   return (
     <div>
       <h2>Atividade 03</h2>
@@ -18,4 +19,4 @@ function atv3() {
   );
 }
 
-export default atv3;
+export default Atv3;

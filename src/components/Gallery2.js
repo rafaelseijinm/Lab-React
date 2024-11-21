@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 function Gallery() {
     const images = ['Image1', 'Image2', 'Image3'];
