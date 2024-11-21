@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 // Toolbar Component
 function Toolbar({ onPlayMovie, onUploadImage }) {
@@ -6,6 +7,7 @@ function Toolbar({ onPlayMovie, onUploadImage }) {
     <div>
       <button onClick={onPlayMovie}>Play Movie</button>
       <button onClick={onUploadImage}>Upload Image</button>
+      <Link to="/">Voltar</Link>
     </div>
   );
 }
@@ -19,6 +21,7 @@ function Gallery() {
       {images.map((img, index) => (
         <div key={index}>{img}</div>
       ))}
+      <Link to="/">Voltar</Link>
     </div>
   );
 }
@@ -31,6 +34,7 @@ function Counter() {
       <button onClick={() => setCount(count + 1)}>+</button>
       <span>{count}</span>
       <button onClick={() => setCount(count - 1)}>-</button>
+      <Link to="/">Voltar</Link>
     </div>
   );
 }
@@ -39,10 +43,13 @@ function Counter() {
 function Form() {
   const [text, setText] = useState('');
   return (
-    <form>
-      <input value={text} onChange={(e) => setText(e.target.value)} />
-      <p>{text}</p>
-    </form>
+    <div>
+      <form>
+        <input value={text} onChange={(e) => setText(e.target.value)} />
+        <p>{text}</p>
+      </form>
+      <Link to="/">Voltar</Link>
+    </div>
   );
 }
 
@@ -67,6 +74,7 @@ function MovingDot() {
           borderRadius: '50%',
         }}
       />
+      <Link to="/">Voltar</Link>
     </div>
   );
 }
@@ -95,6 +103,7 @@ function List2() {
         ))}
       </ul>
       <button onClick={addItem}>Add Item</button>
+      <Link to="/">Voltar</Link>
     </div>
   );
 }
@@ -110,6 +119,7 @@ function ShapeEditor() {
         <div key={index}>{shape}</div>
       ))}
       <button onClick={addCircle}>Add Circle</button>
+      <Link to="/">Voltar</Link>
     </div>
   );
 }
@@ -131,6 +141,7 @@ function CounterList() {
         </div>
       ))}
       <button onClick={addCounter}>Add Counter</button>
+      <Link to="/">Voltar</Link>
     </div>
   );
 }
@@ -149,6 +160,7 @@ function BucketList() {
         ))}
       </ul>
       <button onClick={addItem}>Add Task</button>
+      <Link to="/">Voltar</Link>
     </div>
   );
 }
@@ -170,6 +182,7 @@ function App() {
       <ShapeEditor />
       <CounterList />
       <BucketList />
+      <Link to="/">Voltar</Link>
     </div>
   );
 }

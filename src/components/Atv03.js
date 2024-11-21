@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import Gallery from '../Gallery';
 import ProfileWithAvatar from './ProfileWithAvatar';
@@ -13,6 +13,7 @@ function Atv03() {
       <ProfileWithAvatar />
       <PackingList />
       <List />
+      <Link to="/">Voltar</Link>
     </div>
   );
 }
