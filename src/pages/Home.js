@@ -6,7 +6,7 @@ import "./home.css";
 function Home() {
   return (
     <div>
-      <h1>Página Inicial</h1>
+      <h1>Laboratório React</h1>
       <nav>
         <ul>
           <li>
