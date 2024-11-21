@@ -1,8 +1,8 @@
 // Atv01.js
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Relogio from '../components/Relogio';
-import Letreiro from '../components/Letreiro';
+import Relogio from '../Relogio';
+import Letreiro from '../Letreiro';
 
 function Atv01() {
   return (
