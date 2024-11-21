@@ -1,0 +1,49 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #4a90e2, #f5a623); /* Novo gradiente */
+    color: #f8f9fa; /* Cor de texto alterada */
+}
+
+h1 {
+    font-size: 3rem; /* Aumentado o tamanho */
+    margin-bottom: 15px;
+    font-family: 'Arial Black', sans-serif; /* Alterado o estilo da fonte */
+}
+
+p {
+    font-size: 1.1rem; /* Diminuído o tamanho */
+    margin-bottom: 25px;
+    font-family: 'Georgia', serif; /* Nova fonte */
+}
+
+.links-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; /* Alterado o espaçamento */
+    justify-content: center;
+}
+
+.link-button {
+    background-color: #f8f9fa; /* Alterado o fundo */
+    color: #4a90e2; /* Alterada a cor do texto */
+    text-decoration: none;
+    padding: 12px 25px; /* Ajustado o padding */
+    font-size: 1.1rem; /* Aumentado o tamanho da fonte */
+    font-weight: 600; /* Alterada a espessura */
+    border-radius: 8px; /* Bordas mais arredondadas */
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Intensificado o sombreamento */
+}
+
+.link-button:hover {
+    background-color: #f5a623; /* Alterada a cor ao passar o mouse */
+    color: #ffffff; /* Texto branco no hover */
+    transform: scale(1.08); /* Aumentado o efeito de escala */
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2); /* Sombra mais pronunciada no hover */
+}

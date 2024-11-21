@@ -1,6 +1,7 @@
 // Home.js
 import React from 'react';
 import { Link } from 'react-router-dom';
+import "./home.css";
 
 function Home() {
   return (
@@ -16,6 +17,9 @@ function Home() {
           </li>
           <li>
             <Link to="/Atv03">Atividade 3</Link>
+          </li>
+          <li>
+            <Link to="/Atv04">Atividade 4</Link>
           </li>
         </ul>
       </nav>
