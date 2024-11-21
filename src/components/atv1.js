@@ -1,10 +1,9 @@
-// Atv01.js
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Relogio from './Relogio';
 import Letreiro from './Letreiro';
 
-function Atv01() {
+function atv1() {
   return (
     <>
       <h2>Atividade 01</h2>
@@ -15,4 +14,4 @@ function Atv01() {
   );
 }
 
-export default Atv01;
+export default atv1;

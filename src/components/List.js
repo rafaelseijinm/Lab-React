@@ -1,16 +1,25 @@
-const people = [
-    { id: 1, name: 'Albert Einstein' },
-    { id: 2, name: 'Marie Curie' },
-    { id: 3, name: 'Nikola Tesla' },
-  ];
-  
-  export default function List() {
-    return (
+import React, { useState } from 'react';
+
+function List() {
+  const [items, setItems] = useState(['Playstation 5', 'Xbox Series X', 'Nintendo Switch']);
+
+  const removeItem = (indexToRemove) => {
+    setItems(items.filter((_, index) => index !== indexToRemove));
+  };
+
+  return (
+    <div className="list2">
+      <h3>Consoles de Video Game mais influentes:</h3>
       <ul>
-        {people.map((person) => (
-          <li key={person.id}>{person.name}</li>
+        {items.map((item, index) => (
+          <li key={index}>
+            <span>{item}</span> 
+            <button onClick={() => removeItem(index)}>Excluir</button>
+          </li>
         ))}
       </ul>
-    );
-  }
-  
+    </div>
+  );
+}
+
+export default List;

@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import './Atv02.css';
+import './atv2.css';
 
-function Atv02() {
+function atv2() {
   const [contadorHomens, setContadorHomens] = useState(0);
   const [contadorMulheres, setContadorMulheres] = useState(0);
 
@@ -45,4 +45,4 @@ function Atv02() {
   );
 }
 
-export default Atv02;
+export default atv2;
