@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Gallery from '../Gallery';
-import ProfileWithAvatar from './ProfileWithAvatar';
-import PackingList from '../PackingList';
-import List from '../List';
+import Gallery from '../components/Gallery';
+import ProfileWithAvatar from './components/ProfileWithAvatar';
+import PackingList from '../components/PackingList';
+import List from '../components/List';
 
 function Atv03() {
   return (
