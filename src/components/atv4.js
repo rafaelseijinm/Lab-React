@@ -7,7 +7,7 @@ import Form from './Form';
 import List2 from './List2';
 import ShapeEditor from './ShapeEditor';
 import CounterList from './CounterList';
-import BucketList from './componentes2/BucketList';
+import BucketList from './BucketList';
 import './atv4.css';
 
 function atv4() {

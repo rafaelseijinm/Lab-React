@@ -8,7 +8,7 @@ function List() {
   };
 
   return (
-    <div className="list2">
+    <div className="list">
       <h3>Consoles de Video Game mais influentes:</h3>
       <ul>
         {items.map((item, index) => (
