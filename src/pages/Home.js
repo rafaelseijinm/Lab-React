@@ -10,16 +10,16 @@ function Home() {
       <nav>
         <ul>
           <li>
-            <Link to="/components/Atividade1">Atividade 1</Link>
+            <Link to="../components/Atividade1">Atividade 1</Link>
           </li>
           <li>
-            <Link to="/components/Atividade2">Atividade 2</Link>
+            <Link to="./components/Atividade2">Atividade 2</Link>
           </li>
           <li>
-            <Link to="/components/Atividade3">Atividade 3</Link>
+            <Link to="./components/Atividade3">Atividade 3</Link>
           </li>
           <li>
-            <Link to="/components/Atividade4">Atividade 4</Link>
+            <Link to="./components/Atividade4">Atividade 4</Link>
           </li>
         </ul>
       </nav>
