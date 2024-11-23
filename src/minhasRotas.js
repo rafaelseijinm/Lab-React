@@ -12,10 +12,10 @@ function MinhasRotas() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/Atv1" element={<Atv1 />} />
-        <Route path="/Atv2" element={<Atv2 />} />
-        <Route path="/Atv3" element={<Atv3 />} />
-        <Route path="/Atv4" element={<Atv4 />} />
+        <Route path="/components/Atividade1" element={<Atv1 />} />
+        <Route path="/components/Atividade2" element={<Atv2 />} />
+        <Route path="/components/Atividade3" element={<Atv3 />} />
+        <Route path="/components/Atividade4" element={<Atv4 />} />
       </Routes>
     </Router>
   );
