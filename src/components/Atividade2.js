@@ -27,14 +27,14 @@ function Atv2() {
       <div className="secao-contadores">
         <div className="contador-individual">
           <h4>Homens</h4>
-          <img src="/imagens/homem1.png" alt="Homem" />
+          <img src="/imagens/homem01.png" alt="Homem" />
           <button onClick={aumentarHomens}>+</button>
           <span>{contadorHomens}</span>
           <button onClick={reduzirHomens}>-</button>
         </div>
         <div className="contador-individual">
           <h4>Mulheres</h4>
-          <img src="/imagens/mulher.png" alt="Mulher" />
+          <img src="/imagens/mulher01.png" alt="Mulher" />
           <button onClick={aumentarMulheres}>+</button>
           <span>{contadorMulheres}</span>
           <button onClick={reduzirMulheres}>-</button>
