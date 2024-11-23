@@ -1,4 +1,7 @@
-<div class="container">
+function Atividade2() {
+  return (
+    <div>
+      <div class="container">
   <h2>Homens</h2>
   <div class="counter-section">
     <img src="imagens/homem01.png" alt="Homens"></img>
@@ -21,3 +24,9 @@
 
   <button class="return-button">Voltar</button>
 </div>
+
+    </div>
+  );
+}
+
+export default Atividade2;
