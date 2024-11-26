@@ -1,238 +1,48 @@
-.container {
-    padding: 25px; /* Alterado o espaçamento interno */
-    font-family: 'Verdana', sans-serif; /* Alterada a fonte */
-    line-height: 1.8; /* Aumentado o espaçamento entre linhas */
-    max-width: 850px; /* Largura ajustada */
-    margin: 20px auto; /* Margem ajustada */
-    background-color: #f0f4f8; /* Alterada a cor de fundo */
-    border-radius: 15px; /* Bordas mais arredondadas */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Sombra intensificada */
-}
-
-.container h2 {
+/* Container principal */
+.atv4-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
     text-align: center;
-    margin-bottom: 25px; /* Margem aumentada */
-    color: #2c3e50; /* Alterada a cor */
-}
-
-.toolbar {
-    display: flex;
-    justify-content: space-around; /* Espaçamento uniforme */
-    margin-bottom: 25px; /* Margem aumentada */
-}
-
-.toolbar button {
-    padding: 12px 25px; /* Botões maiores */
-    background-color: #3498db; /* Alterada a cor */
-    color: white;
-    border: none;
-    border-radius: 8px; /* Bordas mais arredondadas */
-    cursor: pointer;
-    font-size: 1rem; /* Aumentado o tamanho da fonte */
-}
-
-.toolbar button:hover {
-    background-color: #2980b9; /* Alterada a cor ao passar o mouse */
-}
-
-.gallery {
-    text-align: center;
-    margin-bottom: 25px; /* Margem ajustada */
-}
-
-.gallery h2 {
-    margin: 15px 0; /* Ajustado o espaçamento */
-}
-
-.gallery button {
-    margin-top: 12px; /* Ajustado o espaçamento */
-    padding: 12px 25px;
-    background-color: #e74c3c; /* Alterada a cor */
-    color: white;
-    border: none;
+  }
+  
+  /* Título principal */
+  .atv4-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  /* Seções */
+  .atv4-section {
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
     border-radius: 8px;
-    cursor: pointer;
-}
-
-.gallery button:hover {
-    background-color: #c0392b; /* Alterada a cor ao passar o mouse */
-}
-
-.counter {
-    text-align: center;
-    margin-bottom: 25px; /* Margem ajustada */
-}
-
-.counter h2 {
-    font-size: 26px; /* Alterado o tamanho da fonte */
-    color: #34495e; /* Alterada a cor */
-}
-
-.counter button {
-    margin-top: 12px; /* Ajustado o espaçamento */
-    padding: 12px 25px;
-    background-color: #f39c12; /* Alterada a cor */
-    color: white;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-}
-
-.counter button:hover {
-    background-color: #e67e22; /* Alterada a cor ao passar o mouse */
-}
-
-.form {
-    margin-bottom: 25px; /* Ajustado o espaçamento */
-}
-
-.form label {
-    display: block;
-    margin-bottom: 12px; /* Ajustado o espaçamento */
-    font-weight: bold;
-    font-size: 1rem; /* Aumentado o tamanho da fonte */
-}
-
-.form input,
-.form textarea {
-    width: 100%;
-    padding: 12px;
-    margin-bottom: 18px; /* Ajustado o espaçamento */
-    border: 1px solid #bdc3c7; /* Alterada a cor da borda */
-    border-radius: 8px;
-    font-size: 1rem; /* Ajustado o tamanho da fonte */
-}
-
-.form button {
-    padding: 12px 25px; /* Ajustado o tamanho */
-    background-color: #16a085; /* Alterada a cor */
-    color: white;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-}
-
-.form button:hover {
-    background-color: #149174; /* Alterada a cor ao passar o mouse */
-}
-
-.moving-dot {
-    width: 100%;
-    height: 350px; /* Altura ajustada */
-    background-color: #ecf0f1; /* Alterada a cor de fundo */
-    position: relative;
-    margin-bottom: 25px; /* Ajustado o espaçamento */
-}
-
-.dot {
-    width: 20px; /* Alterado o tamanho */
-    height: 20px;
-    background-color: #e74c3c; /* Alterada a cor */
-    border-radius: 50%;
-    position: absolute;
-}
-
-.list2 {
-    margin-bottom: 25px; /* Ajustado o espaçamento */
-}
-
-.list2 ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.list2 li {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #ffffff; /* Alterada a cor de fundo */
-    margin-bottom: 12px; /* Ajustado o espaçamento */
-    padding: 12px;
-    border-radius: 8px;
-}
-
-.list2 button {
-    padding: 6px 15px; /* Ajustado o tamanho */
-    background-color: #e74c3c; /* Alterada a cor */
-    color: white;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-}
-
-.list2 button:hover {
-    background-color: #c0392b; /* Alterada a cor ao passar o mouse */
-}
-
-.counter-list {
-    margin-bottom: 25px; /* Ajustado o espaçamento */
-}
-
-.counter-list div {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 12px; /* Ajustado o espaçamento */
-}
-
-.counter-list span {
-    font-size: 20px; /* Alterado o tamanho */
-    color: #2c3e50; /* Alterada a cor */
-}
-
-.counter-list button {
-    padding: 6px 20px; /* Ajustado o tamanho */
-    background-color: #8e44ad; /* Alterada a cor */
-    color: white;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-}
-
-.counter-list button:hover {
-    background-color: #7d3c98; /* Alterada a cor ao passar o mouse */
-}
-
-.bucket-list {
-    margin-bottom: 25px; /* Ajustado o espaçamento */
-}
-
-.bucket-list ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.bucket-list li {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #fff8e1; /* Alterada a cor de fundo */
-    margin-bottom: 12px; /* Ajustado o espaçamento */
-    padding: 12px;
-    border-radius: 8px;
-}
-
-.bucket-list button {
-    padding: 6px 20px; /* Ajustado o tamanho */
-    background-color: #27ae60; /* Alterada a cor */
-    color: white;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-}
-
-.bucket-list button:hover {
-    background-color: #229954; /* Alterada a cor ao passar o mouse */
-}
-
-.container a {
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Título das seções */
+  .atv4-section-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  /* Botão voltar */
+  .atv4-back-link {
     display: inline-block;
-    margin-top: 25px; /* Ajustado o espaçamento */
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: white;
     text-decoration: none;
-    color: #2980b9; /* Alterada a cor */
-    font-weight: bold;
-}
-
-.container a:hover {
-    text-decoration: underline;
-}
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .atv4-back-link:hover {
+    background-color: #e53935;
+  }
+  
