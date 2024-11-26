@@ -1,25 +1,32 @@
-// Home.js
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 import "./home.css";
 
 function Home() {
   return (
-    <div>
-      <h1>Laboratório React</h1>
+    <div className="home-container">
+      <h1 className="home-title">Laboratório React</h1>
       <nav>
-        <ul>
-          <li>
-            <Link to="./components/Atividade1">Atividade 1</Link>
+        <ul className="home-list">
+          <li className="home-list-item">
+            <Link to="./components/Atividade1">
+              <button className="home-button">Atividade 1</button>
+            </Link>
           </li>
-          <li>
-            <Link to="./components/Atividade2">Atividade 2</Link>
+          <li className="home-list-item">
+            <Link to="./components/Atividade2">
+              <button className="home-button">Atividade 2</button>
+            </Link>
           </li>
-          <li>
-            <Link to="./components/Atividade3">Atividade 3</Link>
+          <li className="home-list-item">
+            <Link to="./components/Atividade3">
+              <button className="home-button">Atividade 3</button>
+            </Link>
           </li>
-          <li>
-            <Link to="./components/Atividade4">Atividade 4</Link>
+          <li className="home-list-item">
+            <Link to="./components/Atividade4">
+              <button className="home-button">Atividade 4</button>
+            </Link>
           </li>
         </ul>
       </nav>
