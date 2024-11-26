@@ -69,7 +69,7 @@ function Atv4() {
 
       {/* BucketList Component */}
       <section className="atv4-section">
-        <h2 className="atv4-section-title">Bucket List</h2>
+        <h2 className="atv4-section-title">Lista de Tarefas</h2>
         <BucketList />
       </section>
 

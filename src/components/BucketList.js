@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 
 function BucketList() {
   const [items, setItems] = useState([]);
@@ -37,9 +36,6 @@ function BucketList() {
           </li>
         ))}
       </ul>
-      <Link to="/" style={styles.backLink}>
-        Voltar
-      </Link>
     </div>
   );
 }
