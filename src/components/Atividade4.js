@@ -6,7 +6,6 @@ import Counter from './Counter';
 import Form from './Form';
 import List from './List';
 import List2 from './List2';
-import ShapeEditor from './ShapeEditor';
 import CounterList from './CounterList';
 import BucketList from './BucketList';
 import MovingDot from './MovingDot';
