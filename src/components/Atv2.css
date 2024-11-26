@@ -1,4 +1,5 @@
-body {
+/* Estilos gerais exclusivos de Atividade2 */
+.body-atv2 {
   font-family: 'Arial', sans-serif;
   background-color: #f9f9f9;
   color: #333;
@@ -6,7 +7,7 @@ body {
   padding: 0;
 }
 
-.app-contador {
+.app-contador-atv2 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -14,12 +15,12 @@ body {
   padding: 20px;
 }
 
-h2 {
+.app-contador-atv2 h2 {
   font-size: 2em;
   color: #555;
 }
 
-.contagem-total {
+.contagem-total-atv2 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -27,7 +28,7 @@ h2 {
   margin-bottom: 20px;
 }
 
-.contagem-total input {
+.contagem-total-atv2 input {
   width: 50px;
   text-align: center;
   font-size: 1.5em;
@@ -36,7 +37,7 @@ h2 {
   border-radius: 5px;
 }
 
-.contagem-total button {
+.contagem-total-atv2 button {
   background-color: #2196f3;
   color: white;
   border: none;
@@ -47,26 +48,26 @@ h2 {
   transition: all 0.3s ease;
 }
 
-.contagem-total button:hover {
+.contagem-total-atv2 button:hover {
   background-color: #1976d2;
 }
 
-.secao-contadores {
+.secao-contadores-atv2 {
   display: flex;
   gap: 50px;
   margin-top: 20px;
 }
 
-.contador-individual {
+.contador-individual-atv2 {
   text-align: center;
 }
 
-.contador-individual h4 {
+.contador-individual-atv2 h4 {
   font-size: 1.5em;
   margin-bottom: 10px;
 }
 
-.contador-individual img {
+.contador-individual-atv2 img {
   width: 150px;
   height: auto;
   border-radius: 10px;
@@ -74,7 +75,7 @@ h2 {
   margin-bottom: 10px;
 }
 
-.contador-individual button {
+.contador-individual-atv2 button {
   background-color: #4caf50;
   color: white;
   border: none;
@@ -86,22 +87,22 @@ h2 {
   transition: all 0.3s ease;
 }
 
-.contador-individual button:hover {
+.contador-individual-atv2 button:hover {
   background-color: #45a049;
   transform: scale(1.1);
 }
 
-.contador-individual button:disabled {
+.contador-individual-atv2 button:disabled {
   background-color: #ccc;
   cursor: not-allowed;
 }
 
-.contador-individual span {
+.contador-individual-atv2 span {
   font-size: 1.5em;
   margin: 0 10px;
 }
 
-a {
+a.atv2-link {
   margin-top: 20px;
   background-color: #f44336;
   color: white;
@@ -112,6 +113,6 @@ a {
   transition: all 0.3s ease;
 }
 
-a:hover {
+a.atv2-link:hover {
   background-color: #e53935;
 }
